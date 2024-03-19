@@ -1,0 +1,57 @@
+Solana Memecoin Rugpull Setups
+
+Because there have been so many scam launches within the past month I have decided to outline the things to look out for when thinking about investing into Solana Memecoins.
+
+Quick Links: Rugcheck.xyz, Fluxbeam.xyz
+
+There are many different factors at play here so learning about how Solana Contracts work is a good place to start out.
+
+1.) Contract Deployment
+2.) Contract Extensions (Solana v2 SPL)
+3.) Marketbook Listing
+4.) Liquidity Pool Creation
+5.) Liquidity Pool Management
+
+Contract Deployment
+    
+    The deployment of a smart contract on the solana network can be done in multiple ways but in simple terms you can either develop an entire smart contracts code on your own, or you can use a dextool that has all the basic code already setup for you to use to deploy your contract. In the contract deployment, you decide the Total Supply,# of decimal places the contract can use, the logo for the contract, the ticker or symbol for the contract and the contract name. The dextool method is the main method of deploying memecoin contracts so that is what we will be focused on. Actual development of Solana Programs is more what you get from "Altcoins" rather than memecoins or coins which are attempting to solve a problem that the current coin can't/doesn't or just want to operate on their chain for their program. A good place to start understanding how these people set up rugpulls is to learn how these tools work for yourself, they are cheap (.01 Solana to make contract) and you can make something fun for you and your friends as well as getting a better idea of things at the same time.
+
+Contract Extensions
+
+    On the Solana v2 SPL Token Protocol there are things called "Token Extensions" which allow you to manage things about your token. They allow for you to fully renounce priveleges over your token so that after you are finished with all the changes you wanted to make you can never edit anything about the token again. What this tells us as investors is that atleast if they have renounced ownership, that part of the contract is solid and cannot be manipulated. This is the first thing you want to look for when investigating and the main components you want to make sure you cover are: Mintability, Metadata, Fee Settings and Fee Wallet Ownership (might be apart of some projects should be outlined why and how on their website) are all renounced meaning the creator no longer has the ability to make changes to them.
+
+Marketbook Listing
+
+    In the marketbook listing process, There are a few things that market manipulators will do to artificially inflate the price. In order to understand what is happening with this we need to understand what the market listing allows for the lister to do. The variables which you can edit are: Price Tick Size and Minimum Order Size. This is how the price is artificially manipulated as it requires for each purchase to move the price a specified amount. In this way, Listers are able to create a market, load up 50 bot wallets with Solana and drive the price to the moon before anyone else is able to get in. This is normal on most launches in order to ensure noone gets a crazy market share however it is also a means of manipulation.
+
+Liquidity Pool Creation
+
+Once the contract deployment and marketbook listing phases are completed, the next step for scammers is often the creation of liquidity pools. Liquidity pools are essential for enabling trading of the token. However, scammers can manipulate this process in several ways:
+
+    Fake Liquidity: Scammers may initially inject a significant amount of liquidity into the pool to make it appear more attractive to investors. This can be done using their own funds or by coordinating with accomplices. The goal is to give the illusion of a vibrant market.
+
+    Front-Running: Scammers may use bots to front-run transactions in the liquidity pool. By doing this, they can execute trades before genuine investors, manipulating prices in their favor. This can lead to significant losses for unsuspecting investors who buy at artificially inflated prices.
+
+    Impermanent Loss: Liquidity providers may suffer from impermanent loss, especially in volatile markets. Scammers may exploit this by withdrawing liquidity at opportune moments, causing severe losses for other liquidity providers.
+
+    Rugpull: The ultimate goal of many scammers is to execute a rugpull. This involves draining the liquidity pool of its funds, leaving investors with worthless tokens. To prevent detection, scammers often execute rugpulls swiftly and without warning.
+
+    Fake Promises: Scammers may lure liquidity providers with promises of high returns or exclusive benefits. However, these promises are often empty, and investors end up losing their funds.
+
+It's crucial for investors to conduct thorough due diligence before providing liquidity to any pool. This includes researching the project team, auditing the smart contract, analyzing the tokenomics, and assessing the project's long-term viability.
+
+In summary, while liquidity pools are essential for enabling trading, they also present opportunities for scammers to exploit unsuspecting investors. By understanding the tactics used by scammers and conducting thorough due diligence, investors can mitigate the risk of falling victim to rugpulls and other fraudulent schemes.
+
+Liquidity Pool Management
+
+1. **Small Liquidity Pool Allocation**: Scammers may initially allocate only a small percentage of the total token supply to the liquidity pool on the exchange. This creates a situation where there is limited liquidity available for trading. As a result, even small sell-offs can have a significant impact on the token's price.
+
+2. **Artificial Selling Pressure**: After investors purchase tokens and the price starts to rise, scammers may use bot wallets to artificially create selling pressure. These bot wallets can execute a series of sell orders, driving down the price of the token. Since the liquidity pool is small, even a relatively small amount of selling can cause a substantial price drop.
+
+3. **Price Manipulation**: By strategically timing sell orders and coordinating with multiple bot wallets, scammers can manipulate the market price of the token. They may create panic among investors, leading to a cascade of sell orders and further driving down the price.
+
+4. **Rugpull Execution**: Once the price has been artificially deflated, scammers can execute the rugpull. This involves draining the remaining liquidity from the pool and withdrawing funds, leaving investors with worthless tokens. Since the liquidity pool was small to begin with, the impact of the rugpull can be devastating for investors.
+
+5. **Lack of Transparency**: Scammers often operate in an opaque manner, making it difficult for investors to identify their actions until it's too late. By using bot wallets and sophisticated trading strategies, they can obfuscate their intentions and avoid detection until the rugpull is executed.
+
+Investors should exercise caution when participating in liquidity pools for Solana-based tokens and conduct thorough due diligence before investing. This includes researching the project team, auditing the smart contract, and assessing the tokenomics. Additionally, investors should be wary of projects with small liquidity pools and suspicious trading activity, as these may be indicators of potential rugpulls.
